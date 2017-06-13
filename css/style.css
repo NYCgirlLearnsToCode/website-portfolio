@@ -1,5 +1,22 @@
 * {
 	box-sizing:border-box;
-	padding:0;
-	margin:0;
+}
+
+.top-nav {
+	background: #ccc;
+}
+
+.nav-bar{
+	display:flex;
+	font-size: 30px;
+	padding: 5px 20px;
+}
+
+.nav-toggle {
+	margin-left:auto;
+	cursor: pointer;
+}
+
+.nav-list-collapsed {
+	display:none;
 }
