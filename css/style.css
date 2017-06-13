@@ -2,14 +2,42 @@
 	box-sizing:border-box;
 }
 
+a{
+	text-decoration: none;
+	/*list-style: none;*/
+}
+
+body {
+	background-color: #EFFFFA;
+}
+
+.div {
+	width:100%;
+	height:300px;
+	background-color:white;
+	border:1px solid black;
+}
+
+#top-nav-list {
+	margin: 0; 
+	padding: 0;
+}
+
+
+.brand-link {
+	text-decoration:none;
+	color:black;
+	/*padding-bottom: 5px;*/
+}
+
 .top-nav {
-	background: #ccc;
+	background: #fff;
 }
 
 .nav-bar{
 	display:flex;
 	font-size: 30px;
-	padding: 5px 20px;
+	padding: 5px 15px;
 }
 
 .nav-toggle {
@@ -19,4 +47,13 @@
 
 .nav-list-collapsed {
 	display:none;
+}
+
+.list-items {
+	list-style:none;
+	background-color:#FFFFFF;
+	padding:3px 15px;
+	font-size: 18px;
+	border: .7px dashed #AE76A6;
+	/*border-radius:20px;*/
 }
